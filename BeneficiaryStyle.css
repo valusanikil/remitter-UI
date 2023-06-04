@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    background: lightgrey;
+    margin: auto;
+    margin-top: 30px;
+    border: 1.5px solid black;
+    padding: 15px;
+}
+.division{
+    padding: 15px;
+}
+.bttn{
+    border-radius: 5px;
+    background-color: red;
+    padding: 5px;
+    width: 56px;
+    margin-right: 15px;
+    border: 1px solid transparent;
+    color: white;
+}
+.container label{
+    margin-right: 70px
+}
+
+.lbl{
+    margin-left: 20px;
+} 
+.lblinput1{
+    margin-right: 10px;
+}
+.btns{
+    margin-left: 120px;
+}
+h4{
+    color:red;
+    text-align:center;
+}

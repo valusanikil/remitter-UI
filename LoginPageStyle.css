@@ -1,0 +1,45 @@
+h1{
+    color:red;
+    text-align: center;
+}
+
+.user_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color:blue;
+}
+
+h5{
+    color:red;
+    text-align:center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    margin-left: 10px;  
+}
+
+.sub{
+    border-radius: 9px;
+    width: 64px;
+    background-color: red;
+    color: white;
+    margin-left: 600px;
+    margin-top: 20px;
+    padding: 6px;
+    margin-left: 590px;
+    height: 32px;
+}
+
+.bene{
+    margin-left: 579px;
+    margin-top: 10px;
+    background-color: lightgrey;
+}

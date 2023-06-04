@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+        <link href="RegistrationPageStyle.css" rel="stylesheet">
+        <script src="RegistrationPageValidate.js"></script>
+    </head>
+    <body>
+        <form onsubmit="return registrationPageHandler()">
+            <div class="registrationDetails">
+               <p>First Name:</p>
+                <input type="text" name="fname" id="fname" placeholder="First Name"><br/>
+                <h5 id="emptyFName"></h5>
+                <h5 id="incorrectFName"></h5>
+            </div>
+            <div class="registrationDetails">
+                <p>Last Name:</p>
+                <input type="text" name="lname" id="lname" placeholder="Last Name"><br/>
+                <h5 id="emptyLName"></h5>
+                <h5 id="incorrectLName"></h5>
+            </div>  
+
+            <div class="registrationDetails">
+                <p>Password:</p>
+                <input type="text" name="password" id="password" placeholder="Password"><br/>
+                <h5 id="emptyPassword"></h5>
+                <h5 id="incorrectPassword"></h5>
+            </div>    
+            
+            <div class="registrationDetails">
+                <p>Account Number:</p>
+                <input type="text" name="anumber" id="anumber" placeholder="Account No"><br/>
+                <h5 id="emptyANumber"></h5>
+                <h5 id="incorrectANumber"></h5>
+            </div>    
+            <div class="registrationDetails">
+                <p>Address:</p>
+                <input type="text" name="address" id="address" placeholder="Address"><br/>
+                <h5 id="emptyAddress"></h5>
+                <h5 id="incorrectAddress"></h5>
+            </div>   
+            <div class="registrationDetails">
+                <p>Email Address:</p>
+                <input type="text" name="email" id="email" placeholder="Email Address">
+                <h5 id="emptyEmail"></h5>
+                <h5 id="incorrectEmail"></h5>
+            </div>    
+            <div class="btn">
+                <input id="addBtn" type="submit" value="Add">
+                <input id="resetBtn" type="reset" value="Reset">
+            </div>
+            
+        </form>
+    </body>
+</html>

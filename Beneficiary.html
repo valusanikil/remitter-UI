@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Beneficiary Registration</title>
+        <link href="./BeneficiaryStyle.css", rel="stylesheet">
+        <script src="BeneficiaryValidate.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <form onsubmit="return beneficiaryHandle()">
+                <div class="division">
+                    <label>First Name</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="First Name"/><br/>
+                    <h4 id="emptyFirstName"></h4>
+                </div>
+                <div class="division">
+                    <label>Last Name</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Last Name"/><br/>
+                    <h4 id="emptyLastName"></h4>
+                </div>
+                <div class="division">
+                    <label>Account Number</label>
+                    <input type="text" name="AccNumber" id="AccNumber" placeholder="Account Number"/><br/>
+                    <h4 id="emptyAN"></h4>
+                </div>
+                <div class="division">
+                    <label>Transfer Limnit</label>
+                    <input type="text" name="tLimit" id="tLimit" placeholder="Amount"/><br/>
+                    <h4 id="emptyTLimit"></h4>
+                </div>
+                <div class="division">
+                    <label>Email Address</label>
+                    <input type="text" name="eAddress" id="eAddress" placeholder="Email Address"/><br/>
+                    <h4 id="emptyEmail"></h4>
+                </div>
+                <div class="division">
+                    <label>IFSC Code</label>
+                `   <input type="text" name="ifsc" id="ifsc" placeholder="IFSC code"/><br/>
+                    <h4 id="emptyIFSC"></h4>
+                </div>
+                <div class="division">
+                    <label class="lbl">Account Status</label>
+                    <input type="radio" name="activeStatus" id="activeStatus"/>
+                    <label class="lblinput1">active</label>
+                    <input type="radio" name="inActiveStatus" id="inActiveStatus">
+                    <label class="lblinput1">Inactive</label>
+                </div>
+                <div class="btns">
+                    <input class="bttn" type="submit" value="Add">
+                    <input class="bttn" type="submit" value="View">
+                    <input class="bttn" type="submit" value="Update">
+                </div>
+                
+        
+            </form>
+        </div>
+    </body>
+</html>

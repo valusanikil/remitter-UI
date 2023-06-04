@@ -1,0 +1,33 @@
+.registrationDetails{
+    margin-left: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.registrationDetails p{
+    margin-right: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn input {
+    margin: 15px;
+    height: 25px;
+    width: 70px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+#addBtn{
+    background-color: red;
+}
+#resetBtn{
+    background-color: gray;
+}
+h5{
+    color:red;
+}

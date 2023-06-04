@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link href="LoginPageStyle.css", rel="stylesheet">
+        <script src="LoginPageValidate.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <form onsubmit="return loginPageHandle()">
+                <h1>Remitter Login Page</h1>
+                   <div class="user_details">
+                        <h3>User ID</h3>
+                        <input type="text" id="userId" name="userId"/>
+                        <h5 id="emptyUserName"></h5>
+                        <h5 id="incorrectUserName"></h5>
+                    </div>
+                   <div class="user_details">
+                        <h3>Password</h3>
+                        <input type="password" id="pass" name="pass"/>
+                        <h5 id="emptyPassword"></h5>
+                        <h5 id="incorrectPassword"></h5>
+                    </div>
+                    <div class="btn">
+                        <button><a href="ResetPasswordPage.html">Reset</a></button>
+                        <button><a href="RegistrationPage.html">New Remitter</a></button>
+                    </div>
+                    <div>
+                        <button class="bene"><a href="Beneficiary.html">Registration</a></button>
+                    </div>
+                    <input class="sub" type="submit" value="Login">
+            </form>
+        </div>
+    </body>
+</html>
