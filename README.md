@@ -10,7 +10,7 @@ This is a simple web-based banking system that allows users to register, log in,
 ## Screenshots  
 
 ### Registration Page  
-![Registration Page](C:\Users\Valusa Nikil\OneDrive\Pictures\Screenshots\Screenshot (44).png)
+![Registration Page](https://github.com/valusanikil/remitter-UI/blob/master/Screenshot%20(44).png)
 
 ### Login Page  
 ![Login Page](path/to/Screenshot_45.png)  
