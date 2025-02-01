@@ -10,7 +10,7 @@ This is a simple web-based banking system that allows users to register, log in,
 ## Screenshots  
 
 ### Registration Page  
-![Registration Page](C:/Users/Valusa Nikil/OneDrive/Pictures/Screenshots/Screenshot (44))  
+![Registration Page](images/Screenshot_44.png)
 
 ### Login Page  
 ![Login Page](path/to/Screenshot_45.png)  
