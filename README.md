@@ -13,10 +13,10 @@ This is a simple web-based banking system that allows users to register, log in,
 ![Registration Page](https://github.com/valusanikil/remitter-UI/blob/master/image/Screenshot%20(44).png)
 
 ### Login Page  
-![Login Page](https://github.com/valusanikil/remitter-UI/blob/master/image/Screenshot%20(45).png)  
+![Login Page](https://github.com/valusanikil/remitter-UI/blob/master/image/Screenshot%20(46).png)  
 
 ### Beneficiary Page  
-![Beneficiary Page](https://github.com/valusanikil/remitter-UI/blob/master/image/Screenshot%20(46).png)  
+![Beneficiary Page](https://github.com/valusanikil/remitter-UI/blob/master/image/Screenshot%20(45).png)  
 
 ## How to Run  
 1. Clone the repository:  
